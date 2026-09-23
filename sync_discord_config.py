@@ -65,6 +65,8 @@ from pathlib import Path
 # matches the single-channel format from earlier versions of this script).
 CHANNELS = [
     {"id": "1551627558473171004", "kind": None},
+    {"id": "1552448514896822382", "kind": "required"},
+    {"id": "1552448544617537537", "kind": "optional"},
     # Example of splitting mods by channel instead of by "!command" line:
     # {"id": "<required-mods channel id>", "kind": "required"},
     # {"id": "<optional-mods channel id>", "kind": "optional"},
