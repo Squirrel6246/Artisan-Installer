@@ -1,0 +1,20 @@
+{
+  "mc_version": "26.2",
+  "mods": [
+    {
+      "slug": "fabric-api",
+      "name": "Fabric API",
+      "note": "Core library that almost every Fabric mod needs in order to run.",
+      "required": true,
+      "default": true
+    },
+    {
+      "slug": "simple-voice-chat",
+      "name": "Simple Voice Chat",
+      "note": "Proximity voice chat: you hear players who are close to you. The server must have it too, and everyone who wants to talk needs it installed.",
+      "required": false,
+      "default": true
+    }
+  ],
+  "removals": []
+}
