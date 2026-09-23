@@ -1,7 +1,7 @@
 {
   "mc_version": "26.2",
   "mods": [
-    {
+        {
       "slug": "fabric-api",
       "name": "Fabric API",
       "note": "Core library that almost every Fabric mod needs in order to run",
@@ -37,6 +37,6 @@
       "default": true
     }
   ],
-  "removals": []
+  "removals": [],
   "synced_at": "2026-09-23T21:50:44+00:00"
 }
