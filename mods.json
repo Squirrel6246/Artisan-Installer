@@ -4,15 +4,36 @@
     {
       "slug": "fabric-api",
       "name": "Fabric API",
-      "note": "Core library that almost every Fabric mod needs in order to run.",
+      "note": "Core library that almost every Fabric mod needs in order to run",
       "required": true,
+      "default": true
+    },
+    {
+      "slug": "shippy-ships",
+      "name": "Shippy Ships",
+      "note": "Shippy Ships introduces different fully functional sailboats that you can build and sail with friends and villagers.",
+      "required": true,
+      "default": true
+    },
+    {
+      "slug": "modmenu",
+      "name": "Mod Menu",
+      "note": "Adds a Mods button to the main menu so you can see what's installed",
+      "required": false,
       "default": true
     },
     {
       "slug": "simple-voice-chat",
       "name": "Simple Voice Chat",
-      "note": "Proximity voice chat: you hear players who are close to you. The server must have it too, and everyone who wants to talk needs it installed.",
+      "note": "Proximity voice chat: you hear players who are close to you or connected in groups. Everyone who wants to talk needs it installed. (Highly Recommended)",
       "required": false,
+      "default": true
+    },
+    {
+      "slug": "ingeniumapi",
+      "name": "Ingenium API",
+      "note": "API dependency needed for Shippy Ships mod.",
+      "required": true,
       "default": true
     }
   ],
