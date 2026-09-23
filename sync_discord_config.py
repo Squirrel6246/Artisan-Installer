@@ -23,7 +23,7 @@ from pathlib import Path
 # The name of the installer file in this repo, imported below to reuse its
 # fetch_discord_messages() / parse_messages() so the message format only has
 # to be defined in one place.
-INSTALLER_FILENAME = "Artisan-Installer.py"
+INSTALLER_FILENAME = "Artisan-Installer-v3.0.0-alpha.py"
 
 
 def load_installer_module():

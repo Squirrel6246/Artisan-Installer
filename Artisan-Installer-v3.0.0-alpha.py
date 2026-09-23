@@ -114,7 +114,7 @@ GITHUB_USER = "Squirrel6246"        # your GitHub / Modrinth / Discord username
 PROJECT_NAME = "Artisan-Installer"   # what you call this program
 VERSION = "1.0.1"                 # BUMP THIS for every release (the updater compares it)
 CONTACT = "Jackcech66@gmail.com"     # an email address or a website
-PROJECT_URL = "https://github.com/Squirrel6246/Artisan-Installer"  # your GitHub repo (used for updates)
+PROJECT_URL = "https://github.com/Squirrel6246/Artisan-Installer/tree/Squirrel6246-discord-fetch"  # your GitHub repo (used for updates)
 
 MODRINTH_UA = f"{GITHUB_USER}/{PROJECT_NAME}/{VERSION} ({CONTACT})"
 DISCORD_UA = f"DiscordBot ({PROJECT_URL}, {VERSION})"   # Discord requires this exact shape
@@ -130,7 +130,7 @@ RELEASE_SCRIPT_NAME = "Artisan-Installer.exe" # the name of the .exe asset on yo
 #     with Discord by a scheduled GitHub Action (see .github/workflows/
 #     sync-discord-config.yml and sync_discord_config.py). This is a public,
 #     non-secret URL - no bot token is ever shipped in this script.
-CONFIG_URL = "https://raw.githubusercontent.com/Squirrel6246/Artisan-Installer/main/mods.json"
+CONFIG_URL = "https://raw.githubusercontent.com/Squirrel6246/Artisan-Installer/tree/Squirrel6246-discord-fetch/main/mods.json"
 DISCORD_SOURCE_LABEL = "Artisan SMP Discord"   # shown to the user as "Mod list loaded from:"
 
 # --- Local testing only: set these two environment variables to read a
