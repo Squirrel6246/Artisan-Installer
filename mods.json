@@ -21,11 +21,25 @@
       "note": "Proximity voice chat: you hear players who are close to you or connected in groups. Everyone who wants to talk needs it installed. (Highly Recommended)",
       "required": false,
       "default": true
+    },
+    {
+      "slug": "itemtools-item-restrictions",
+      "name": "Item Tools",
+      "note": "Item Moderation Tools",
+      "required": true,
+      "default": true
+    },
+    {
+      "slug": "invtools-inventory-rollback",
+      "name": "InvTools",
+      "note": "Inventory management and rollback tools",
+      "required": true,
+      "default": true
     }
   ],
   "removals": [
     "shippy-ships",
     "ingeniumapi"
   ],
-  "synced_at": "2026-09-27T23:15:05+00:00"
+  "synced_at": "2026-09-28T01:26:13+00:00"
 }
