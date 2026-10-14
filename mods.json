@@ -23,20 +23,6 @@
       "default": true
     },
     {
-      "slug": "itemtools-item-restrictions",
-      "name": "Item Tools",
-      "note": "Item Moderation Tools",
-      "required": true,
-      "default": true
-    },
-    {
-      "slug": "invtools-inventory-rollback",
-      "name": "InvTools",
-      "note": "Inventory management and rollback tools",
-      "required": true,
-      "default": true
-    },
-    {
       "slug": "voxy-server-side",
       "name": "Voxy Server Side",
       "note": "Addon for Voxy World Gen that saves generated chunks to server so you don't need to explore and load chunks to make voxy work.",
@@ -48,5 +34,5 @@
     "shippy-ships",
     "ingeniumapi"
   ],
-  "synced_at": "2026-10-13T21:49:34+00:00"
+  "synced_at": "2026-10-14T00:40:43+00:00"
 }
